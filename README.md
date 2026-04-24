@@ -50,11 +50,21 @@ Interactive API documentation for easy testing.
 
 ---
 ##  Project Structure
-📁 URLShortener
-┣ 📁 Controllers
-┣ 📁 Services
-┣ 📁 Models
-┣ 📁 Data
-┗ 📄 Program.cs
+URLShortener
+│
+├── Base
+│   └── Entity.cs
+├── Context
+│   └── ApplicationDbContext.cs
+├── Entities
+│   └── Analytic.cs
+│   └── Url.cs
+├── Helpers
+│   └──CodeGenerator.cs
+├── Options
+│   └── ShortenerOptions.cs
+├── Program.cs
+├── appsettings.Development.json
+└── appsettings.json
 
 
