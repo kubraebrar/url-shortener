@@ -17,22 +17,22 @@ This project is designed to demonstrate **backend development skills**, includin
 
 ## Features
 
-✅ **URL Shortening**  
+**URL Shortening**  
 Generate clean and unique short URLs from long links.
 
-✅ **Fast Redirection**  
+**Fast Redirection**  
 Efficient HTTP 302 redirection using optimized read queries (`AsNoTracking`).
 
-✅ **Analytics Tracking**  
+ **Analytics Tracking**  
 Track every click with:
 - Timestamp  
 - IP Address  
 - User-Agent  
 
-✅ **Collision-Free Code Generation**  
+ **Collision-Free Code Generation**  
 Ensures every generated short URL is unique.
 
-✅ **Swagger Integration**  
+ **Swagger Integration**  
 Interactive API documentation for easy testing.
 
 ---
@@ -50,6 +50,7 @@ Interactive API documentation for easy testing.
 
 ---
 ##  Project Structure
+```
 URLShortener
 │
 ├── Base
@@ -66,5 +67,5 @@ URLShortener
 ├── Program.cs
 ├── appsettings.Development.json
 └── appsettings.json
-
+```
 
